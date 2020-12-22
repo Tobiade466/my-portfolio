@@ -1,0 +1,96 @@
+html, body{
+    background-color: darkgrey;
+}
+h1{
+    text-align: center;
+    color: blue
+}
+.left{
+    text-align: left;
+    color: blue;
+    padding: 10px
+}
+.right{
+    color: blue;
+    text-align: right
+}
+.nav-items{
+    display: inline;
+    margin: 20px;
+    padding-bottom: 20px
+}
+a{
+    text-decoration: none
+}
+hr{
+    color: green
+}
+.class{
+    text-align: center;
+    font-size: 50px;
+    color: green
+}
+button{
+    border: none;
+    background-color: brown;
+    width: 100px;
+    height: 70px;
+    color: bisque;
+    border-radius: 50px
+}
+button:hover{
+    background-color:brown;
+    color:bisque;
+    padding: 15px 30px;
+    border: solid 4px brown;
+    border-radius: 25px;
+    transition: ease-in .3s ;
+}
+.text{
+    text-align: center
+}
+.middle-text{
+    text-align: center;
+    color: green;
+    background-color: yellow;
+    padding: 10px
+}
+.last-section{
+    text-align: center;
+}
+.about{
+    color: midnightblue;
+    padding-bottom: 10px;
+    font-size: 30px;
+}
+.button1{
+    margin: 20px;
+    color: yellow
+}
+.button1:hover{
+    background-color:brown;
+    color: yellow;
+    padding: 15px 30px;
+    border: solid 4px brown;
+    border-radius: 25px;
+    transition: ease-in .3s ;
+}
+.button2{
+    color: brown;
+    background-color: yellow
+}
+.button2:hover{
+    background-color: yellow;
+    color: brown;
+    padding: 15px 30px;
+    border: solid 4px brown;
+    border-radius: 25px;
+    transition: ease-in .3s ;
+}
+@media only screen and (max-width: 375px)
+{
+    .nav-items{
+        display: inline;
+        margin: 5px
+    }
+}
